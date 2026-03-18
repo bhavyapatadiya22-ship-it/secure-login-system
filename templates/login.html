@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Login Page</h2>
+
+<form method="POST">
+
+<label>Email</label>
+<input type="email" name="email" placeholder="Enter email" required>
+
+<label>Password</label>
+<input type="password" name="password" placeholder="Enter password" required>
+<label>Security Check: What is 3 + 5?</label>
+<input type="text" name="captcha" placeholder="Enter answer">
+<button type="submit">Login</button>
+
+</form>
+
+<p>Don't have an account? <a href="/register">Register Here</a></p>
+
+</div>
+
+</body>
+</html>
