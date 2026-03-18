@@ -1,0 +1,112 @@
+/* ===== GLOBAL PAGE STYLE ===== */
+
+body {
+    background-color: #0b1f3a;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== CONTAINER ===== */
+
+.container {
+    background-color: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 10px;
+    width: 900px;
+    text-align: center;
+}
+
+/* ===== HEADINGS ===== */
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* ===== LABELS ===== */
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* ===== INPUTS ===== */
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+
+    border: none;
+    border-radius: 5px;
+}
+
+/* ===== BUTTON ===== */
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f6cd6;
+}
+
+/* ===== LINKS ===== */
+
+a {
+    color: #9dc9ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ADMIN TABLE ===== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ===== DASHBOARD TEXT ===== */
+
+.dashboard {
+    text-align: center;
+}
+table {
+    margin: auto;
+    width: 80%;
+}
+
+.container {
+    text-align: center;
+}
